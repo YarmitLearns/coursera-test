@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+header>h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.75em;
+}
+.menuFlexCon {
+    width: 100%;
+    float: left;
+}
+.menuItem {
+    background-color: lightgray;
+    color: black;
+    height: 200px;
+    width: 95%;
+    margin: 15px auto 15px auto;
+    padding: 40px 10px 10px 10px;
+    position: relative;
+    border: 1px solid black;
+    
+}
+.menuTitle {
+    background-color: seagreen;
+    color: floralwhite;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.25em;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.menuTitle.fish {
+    background-color: cornflowerblue;
+}
+.menuTitle.beef {
+    background-color: indianred;
+}
+@media (min-width: 992px) {
+    .menuFlexCon {
+        width: 33.33%;
+    }
+    .menuItem {
+        width: 90%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .menuFlexCon {
+        width: 50%;
+    }
+    .menuItem {
+        width: 90%;
+    }
+    .menuFlexCon.fish {
+        width: 100%;
+    }
+    .menuItem.fish {
+        width: 95%;
+    }
+}
