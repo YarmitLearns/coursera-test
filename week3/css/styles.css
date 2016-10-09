@@ -1,0 +1,33 @@
+#exCollapsingNavbar2 {
+  clear: both;
+  padding: 0;
+  margin: 0px -20px 0px -20px
+}
+#ddNav {
+  padding: 10px 0px 0px 0px;
+  list-style-type: none;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+}
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#longArticle {
+  background-color: bisque;
+  margin: 15px;
+  height: 1000px;
+}
+#credit {
+  font-size: x-small;
+}

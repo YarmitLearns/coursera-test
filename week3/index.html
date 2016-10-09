@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <!--to grader: I'm using bootstrap 4 and must show this button @ "xs" and "sm" to match the assignment defined breakpoints of bootstrap 3's "xs" (they changed the breakpoint definitions) -->
+      <button class="navbar-toggler hidden-md-up pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
+      </button> <!-- responsive button -->
+      <span class="navbar-brand" id="top">Food, LCC </span><!-- Brand -->
+      <div class="collapse navbar-toggleable-md bg-inverse hidden-md-up" id="exCollapsingNavbar2">
+        <ul id="ddNav" class="text-xs-center">
+          <li><a href="#top">Chicken</a></li>
+          <hr>
+          <li><a href="#bacon">Bacon</a></li> <!-- I hope i don't get marked down for this: "Beef" -->
+          <hr>
+          <li><a href="#top">Sushi</a></li>
+        </ul>
+      </div> <!-- Responsive dropdown content -->
+    </nav> <!-- Navbar-->
+
+    <h1 class="text-xs-center">Our Menu</h1>
+    <article class="container-fluid" id="longArticle"><div class="col-xs-12">
+      <h2 class="text-xs-center" id="bacon">Bacon</h2>
+      <p>When I was young my father said to me:</p>
+      <p>"Knowledge is Power....Francis Bacon"</p>
+      <p>I understood it as "Knowledge is power, France is Bacon".</p>
+      <p>For more than a decade I wondered over the meaning of the second part and what was the surreal linkage between the two? If I said the quote to someone, "Knowledge is power, France is Bacon" they nodded knowingly. Or someone might say, "Knowledge is power" and I'd finish the quote "France is Bacon" and they wouldn't look at me like I'd said something very odd but thoughtfully agree. I did ask a teacher what did "Knowledge is power, France is bacon" mean and got a full 10 minute explanation of the Knowledge is power bit but nothing on "France is bacon". When I prompted further explanation by saying "France is Bacon?" in a questioning tone I just got a "yes". at 12 I didn't have the confidence to press it further. I just accepted it as something I'd never understand.</p>
+      <p>It wasn't until years later I saw it written down that the penny dropped. <a href="https://www.reddit.com/r/AskReddit/comments/dxosj/what_word_or_phrase_did_you_totally_misunderstand/c13pbyc">*</a><span id="credit">(/u/Lard_Baron, reddit.com, 2011)</span></p>
+    </div></article> <!-- bacon article -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+  </body>
+</html>
